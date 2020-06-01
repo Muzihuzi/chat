@@ -135,7 +135,7 @@ class Menu extends React.Component {
                 <Paper>
                   <ClickAwayListener onClickAway={this.handlePeopleClose}>
                     <MenuList>
-                      <MenuItem onClick={this.handlePeopleClose}>Profile</MenuItem>
+                      <MenuItem onClick={this.handlePeopleClose}>프로필</MenuItem>
                       <MenuItem onClick={this.handleLogout}>로그아웃</MenuItem>
                     </MenuList>
                   </ClickAwayListener>
